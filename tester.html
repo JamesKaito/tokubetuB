@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>読めルンです。</title>
+    <meta name="description" content="画像からテキストを生成し、タグ付けによる分類ができるウェブアプリです。">
+    <style type="text/css">
+    .second{
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .subtitle{
+      letter-spacing: 10px;
+      text-align: center;
+      font-size:40px;
+      font-weight:bold;
+      margin: 10px;
+      color: #a9a9a9;
+      position: relative;
+      line-height: 1.4;
+      padding:0.25em 1em;
+      display: inline-block;
+    }
+    .subtitle span {
+      color: #66cdaa;
+    }
+
+    .subtitle:before, .subtitle:after {
+	       content:'';
+	       width: 20px;
+	       height: 30px;
+	       position: absolute;
+	       display: inline-block;
+	   }
+    .subtitle:before {
+        border-left: solid 3px #a9a9a9;
+        border-top: solid 3px #a9a9a9;
+        top:0;
+        left: 0;
+    }
+    .subtitle:after {
+        border-right: solid 3px #a9a9a9;
+        border-bottom: solid 3px #a9a9a9;
+        bottom:0;
+        right: 0;
+    }
+
+    .parent{
+      float: left;
+      margin:200px 200px 200px 200px;
+    }
+    .child{
+      float: left;
+      text-align: center;
+      width:50%;
+
+      font-size:15px;
+      font-weight:bold;
+      color: #a9a9a9;
+      position: relative;
+      line-height: 1.4;
+      padding:0.25em 1em;
+      display: inline-block;
+    }
+    .child span{
+      color: #66cdaa;
+    }
+
+
+
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    <h1>読め<span>ルン</span>です。</h1>
+    <h2>処理センタクがめん。</h2>
+
+    <div class="second">
+      <div class="subtitle">処理内容を選<span>ブン</span>です。</div>
+    </div>
+
+    <div class="parent">
+      <div class="child">
+        <div class="divName">選択肢1</div>
+        <p class="div-contents">画像内の文字をテキスト変換しちゃ<span>ウン</span>です。</p>
+      </div>
+      <div class="child">
+        <div class="divName">選択肢2</div>
+        <p class="div-contents">画像内の人物にタグ付けをしちゃ<span>ウン</span>です。</p>
+      </div>
+      <div class="child">
+        <div class="divName">選択肢3</div>
+        <p class="div-contents">画像内のモノにタグ付けをしちゃ<span>ウン</span>です。</p>
+      </div>
+      <div class="child">
+        <div class="divName">選択肢4</div>
+        <p class="div-contents">全ての処理を実行しちゃ<span>ウン</span>です。</p>
+      </div>
+    </div>
+    
+</body>
+</html>
